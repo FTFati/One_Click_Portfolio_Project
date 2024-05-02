@@ -1,4 +1,4 @@
-"""Taskify Hub application routes"""
+"""Application routes"""
 from app_factory import app, db, mail
 from database import Reg, Todo
 from datetime import datetime, date
@@ -12,7 +12,7 @@ from urllib.parse import quote
 
 # app = Flask(__name__)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///sqlite.db'
-# app.config['SECRET_KEY'] = 'dfe7b0946804edf295050cbb8ce8d3aec72063aede88df37'
+# app.config['SECRET_KEY'] = '1b7859b4899111798669de7c053567f5ad3949d3997b3d59'
 Bootstrap(app)
 bcrypt = Bcrypt(app)
 
@@ -72,13 +72,7 @@ def send_mail(user):
     # print(f"DEBUG: Sender email set to: {sender_email}")
     msg = Message('Password Reset Request', recipients=[user.email], sender=sender_email)
     # print(f"DEBUG: Recipient email set to: {user.email}")
-    msg.body = f''' To reset your password, please follow the link below.
-
-    {reset_url}
-
-    If you did not send a password request, please ignore this message.
-
-    '''
+    msg.body = "To reset your password, please follow the link below.\n\n{}\n\nIf you did not send a password request, please ignore this message.".format(reset_url)
     mail.send(msg)
 
 @app.route('/reset_request', methods=['GET', 'POST'])

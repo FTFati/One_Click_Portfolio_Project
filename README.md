@@ -16,24 +16,34 @@ The aim of the "One Click" is to simplify task management and enhance productivi
 ## Technologies Used
 
 ### Frontend Frameworks and Libraries:
+- [Bootstrap](https://getbootstrap.com/): Frontend framework for developing responsive and mobile-first websites.
 
 ### Backend Frameworks and Libraries:
+- [Flask](https://flask.palletsprojects.com/): Lightweight Python web framework for building web applications.
+- [Flask-Bcrypt](https://flask-bcrypt.readthedocs.io/en/latest/): Flask extension for hashing passwords.
+- [Flask-Login](https://flask-login.readthedocs.io/en/latest/): Flask extension for managing user authentication.
+- [Flask-Mail](https://pythonhosted.org/Flask-Mail/): Flask extension for sending email messages.
+- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/): Flask extension for working with SQL databases using SQLAlchemy.
 
 ### Other Technologies:
+- [SQLite](https://www.sqlite.org/index.html): Lightweight, serverless database engine used for storing application data.
+- [Python](https://www.python.org/): Programming language used for backend development.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Markup language for creating web pages.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Style sheet language for styling web pages.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): Programming language for enhancing interactivity in web applications.
 
 ### Running the Application
 
 - Start the development server:
-  `python3 app.py`
-
 - Access the application at `http://localhost:5000` by default.
 
 ### Usage
 #### Basic Usage Instructions
 - Open your web browser and go to `http://localhost:5000`.
 - Register for a new account or log in if you already have an account.
-- Once logged in, you will be directed to the dashboard where
-    you can manage your tasks.
-- Create new tasks, mark tasks as complete, edit task details, or delete tasks
-    as needed.
+- Once logged in, you will be directed to the dashboard where you can manage your tasks.
+- Create new tasks, mark tasks as complete, edit task details, or delete tasks as needed.
 - Log out when you are done using the application.
+
+## Authors
+[Fatima Amkachou](https://github.com/FTFati): Full Stack Developer, Project Manager
