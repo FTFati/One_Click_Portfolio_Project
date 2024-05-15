@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_mail import Mail
 from flask_sqlalchemy import SQLAlchemy
 
 # Create the Flask app instance
@@ -13,12 +14,12 @@ app.config['SECRET_KEY'] = 'dfe7b0946804edf295050cbb8ce8d3aec72063aede88df37'
 # Initialize SQLAlchemy to work with the Flask app
 db = SQLAlchemy(app)
 
-# Defineroutes and views below
-@app.route('/')
-def home():
-    return 'Welcome to One Click Project'
+# Configure email settings for Flask-Mail
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+app.config['MAIL_PORT'] = 587
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USERNAME'] = 'belloabiodun17@gmail.com'
+app.config['MAIL_PASSWORD'] = 'ekjm xvvi ofwn dwxh'
 
-# Add more routes and views as needed
-
-if __name__ == "__main__":
-    app.run(debug=True)
+# Initialize Flask-Mail to work with the Flask app
+mail = Mail(app)
