@@ -3,7 +3,7 @@
 ## Introduction
 
 The One Click is a web-based application designed to streamline task management and productivity tracking for individuals or teams. With a simple and intuitive user interface, users can easily create, manage, and track tasks for the week and month, all with just one click. The platform allows users to add tasks with titles and descriptions, set priorities and due dates, and mark tasks as completed as they progress. Additionally, the project includes features for calculating the percentage of completed tasks, providing users with insights into their productivity and progress.
-The aim of the "One Click" is to simplify task management and enhance productivity by offering a user-friendly solution for organizing and tracking tasks effectively.
+The aim of the "One Click" is to simplify task management and enhance productivity by offering a user-friendly solution for organizing and tracking tasks effectively.You can connect with me on [LinkedIn](https://www.linkedin.com/in/fatima-amkachou-7a0a53278/).
 
 ## Features
 - <b>User Authentication:</b> Users can create an account, log in, and log out securely.
@@ -13,6 +13,23 @@ The aim of the "One Click" is to simplify task management and enhance productivi
 - <b>Task Status:</b> Users can mark tasks as complete or incomplete.
 - <b>Password Reset:</b> Users can request a password reset if they forget their password.
 
+### Installation
+
+- Clone the repository:
+  `git clone https://github.com/FTFati/One_Click_Portfolio_Project`
+
+- Navigate to the project directory:
+  `cd One_Click_Portfolio_Project`
+
+### Usage
+
+- Start the development server:
+  `python3 app.py`
+- Open your web browser and go to `http://localhost:5000`.
+- Register for a new account or log in if you already have an account.
+- Once logged in, you will be directed to the dashboard where you can manage your tasks.
+- Create new tasks, mark tasks as complete, edit task details, or delete tasks as needed.
+- Log out when you are done using the application
 ## Technologies Used
 
 ### Frontend Frameworks and Libraries:
@@ -37,13 +54,9 @@ The aim of the "One Click" is to simplify task management and enhance productivi
 - Start the development server:
 - Access the application at `http://localhost:5000` by default.
 
-### Usage
-#### Basic Usage Instructions
-- Open your web browser and go to `http://localhost:5000`.
-- Register for a new account or log in if you already have an account.
-- Once logged in, you will be directed to the dashboard where you can manage your tasks.
-- Create new tasks, mark tasks as complete, edit task details, or delete tasks as needed.
-- Log out when you are done using the application.
+## License
+This project is licensed under the _MIT License_ - see the **[LICENSE](./LICENSE)**
+file for details.
 
 ## Authors
 [Fatima Amkachou](https://github.com/FTFati): Full Stack Developer, Project Manager
