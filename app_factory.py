@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///sqlite.db'
 
 # Set the secret key for session security
-app.config['SECRET_KEY'] = 'dfe7b0946804edf295050cbb8ce8d3aec72063aede88df37'
+app.config['SECRET_KEY'] = '4f90a6731c50f2eba5f5764b8232a48ac83c109108120fbe'
 
 # Initialize SQLAlchemy to work with the Flask app
 db = SQLAlchemy(app)
