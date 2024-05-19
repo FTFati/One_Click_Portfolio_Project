@@ -5,6 +5,8 @@
 The One Click is a web-based application designed to streamline task management and productivity tracking for individuals or teams. With a simple and intuitive user interface, users can easily create, manage, and track tasks for the week and month, all with just one click. The platform allows users to add tasks with titles and descriptions, set priorities and due dates, and mark tasks as completed as they progress. Additionally, the project includes features for calculating the percentage of completed tasks, providing users with insights into their productivity and progress.
 The aim of the "One Click" is to simplify task management and enhance productivity by offering a user-friendly solution for organizing and tracking tasks effectively.You can connect with me on [LinkedIn](https://www.linkedin.com/in/fatima-amkachou-7a0a53278/).
 
+[Go To One Click](http://ftfati.pythonanywhere.com/)
+
 ## Features
 - <b>User Authentication:</b> Users can create an account, log in, and log out securely.
 - <b>Task Management:</b> Users can create tasks with titles, descriptions, and due dates.
