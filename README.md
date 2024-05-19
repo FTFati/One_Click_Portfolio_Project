@@ -7,6 +7,10 @@ The aim of the "One Click" is to simplify task management and enhance productivi
 
 [Go To One Click](http://ftfati.pythonanywhere.com/)
 
+![Home Page](static/images/home_page.png)
+![Task List](static/images/task_list.png)
+
+
 ## Features
 - <b>User Authentication:</b> Users can create an account, log in, and log out securely.
 - <b>Task Management:</b> Users can create tasks with titles, descriptions, and due dates.
