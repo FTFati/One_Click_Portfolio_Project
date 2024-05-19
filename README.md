@@ -7,8 +7,8 @@ The aim of the "One Click" is to simplify task management and enhance productivi
 
 [Go To One Click](http://ftfati.pythonanywhere.com/)
 
-![Home Page](static/images/home_page.png)
-![Task List](static/images/task_list.png)
+![Home Page](static/images/home_home.jpg)
+![Task List](static/images/task_task.jpg)
 
 
 ## Features
